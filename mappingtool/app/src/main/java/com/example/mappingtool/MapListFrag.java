@@ -10,10 +10,11 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.mappingtool.databinding.FragmentFirstBinding;
+import com.example.mappingtool.databinding.MapListFragBinding;
 
-public class FirstFragment extends Fragment {
+public class MapListFrag extends Fragment {
 
-    private FragmentFirstBinding binding;
+    private MapListFragBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +22,7 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentFirstBinding.inflate(inflater, container, false);
+        binding = MapListFragBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,13 +30,9 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 //
-        binding.startMapping.setOnClickListener(v ->
-                NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment)
-        );
-        binding.mapListbutton.setOnClickListener(v ->
-                NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_mapListFrag)
+        binding.returnList.setOnClickListener(v ->
+                NavHostFragment.findNavController(MapListFrag.this)
+                        .navigate(R.id.action_mapListFrag_to_FirstFragment)
         );
     }
 

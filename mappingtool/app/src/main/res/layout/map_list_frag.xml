@@ -23,7 +23,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#0F471B">
+            android:background="@color/green">
 
             <TextView
                 android:id="@+id/textView"
@@ -31,7 +31,7 @@
                 android:layout_height="match_parent"
                 android:text="AUT - WZ"
                 android:textAlignment="center"
-                android:textColor="#FAFAFA"
+                android:textColor="@color/green"
                 android:textSize="24sp" />
         </FrameLayout>
 
@@ -42,7 +42,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#0F471B">
+            android:background="@color/green">
 
             <TextView
                 android:id="@+id/textView1"
@@ -50,7 +50,7 @@
                 android:layout_height="match_parent"
                 android:text="AUT - WS"
                 android:textAlignment="center"
-                android:textColor="#FAFAFA"
+                android:textColor="@color/green"
                 android:textSize="24sp" />
         </FrameLayout>
 
@@ -61,7 +61,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#0F471B">
+            android:background="@color/green">
 
             <TextView
                 android:id="@+id/textView2"
@@ -80,7 +80,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#0F471B">
+            android:background="@color/green">
 
             <TextView
                 android:id="@+id/textView3"
@@ -99,7 +99,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#0F471B">
+            android:background="@color/green">
 
             <TextView
                 android:id="@+id/textView4"
@@ -124,7 +124,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="53dp"
-        android:backgroundTint="#0F471B"
+        android:backgroundTint="@color/green"
         android:text="Return"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

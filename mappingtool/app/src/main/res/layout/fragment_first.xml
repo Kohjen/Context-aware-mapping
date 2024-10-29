@@ -17,7 +17,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="275dp"
+        android:layout_height="230dp"
         android:src="@mipmap/logo_foreground" />
 
     <Space
@@ -27,8 +27,8 @@
     <Button
         android:id="@+id/startMapping"
         android:layout_width="328dp"
-        android:layout_height="86dp"
-        android:backgroundTint="#0F471B"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/green"
         android:text="@string/begin_mapping"
         android:textSize="28sp" />
 
@@ -39,10 +39,10 @@
     <Button
         android:id="@+id/mapListbutton"
         android:layout_width="328dp"
-        android:layout_height="86dp"
-        android:backgroundTint="#0F471B"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/green"
         android:text="@string/view_mapped_locations"
-        android:textSize="28sp" />
+        android:textSize="24sp" />
 
     <Space
         android:layout_width="match_parent"
@@ -51,8 +51,8 @@
     <Button
         android:id="@+id/exitButton"
         android:layout_width="328dp"
-        android:layout_height="86dp"
-        android:backgroundTint="#0F471B"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/green"
         android:text="@string/exit"
         android:textSize="28sp" />
 

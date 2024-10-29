@@ -1,5 +1,5 @@
 # Context aware mapping tool
-<img src="https://github.com/Kohjen/Context-aware-mapping/blob/main/Logo.png" width=30% align=right>
+<img src="https://github.com/Kohjen/Context-aware-mapping/blob/main/Logo.png" width=10% align=right>
 
 The context aware mapping tool is an open source mapping tool developed by Joshua Ladowsky in an effort to make a more accessible method of indoor navigation for people .
 
